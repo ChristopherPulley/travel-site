@@ -1,11 +1,25 @@
+$mainblue: #2f5572;
+
 .large-hero {
   position: relative;
-}
 
-.large-hero__text-content {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 100%;
-  text-align: center;
+  &__text-content {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+  }
+
+  &__title {
+    font-weight: 300;
+    color: $mainblue;
+    font-size: 4.8rem;
+  }
+
+  &__subtitle {
+    font-weight: 300;
+    color: $mainblue;
+    font-size: 2.9rem;
+  }
 }
