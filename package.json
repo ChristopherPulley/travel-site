@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack",
+    "dev": "webpack-dev-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,7 +20,8 @@
   "homepage": "https://github.com/ChristopherPulley/travel-site#readme",
   "dependencies": {
     "lodash": "^4.17.20",
-    "normalize.css": "^8.0.1"
+    "normalize.css": "^8.0.1",
+    "postcss-mixins": "^6.2.2"
   },
   "devDependencies": {
     "autoprefixer": "^9.8.6",
@@ -31,6 +32,7 @@
     "postcss-simple-vars": "^5.0.2",
     "style-loader": "^1.2.1",
     "webpack": "^4.44.1",
-    "webpack-cli": "^3.3.12"
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
   }
 }
